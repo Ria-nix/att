@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/css/style.css">
+    <title>BankDash.</title>
+</head>
+<body>
+    <div class="container">
+        <div class="container__sidebar sidebar">
+            <div class="sidebar__logo">
+                <img src="./img/logo.svg" alt="logo">
+            </div>
+
+            <ul class="sidebar__list">
+                <li class="sidebar__item">
+                    <span>
+                        <img src="./img/home.svg" alt
+                        ="home"></span>
+                    <p>Dashboard</p>
+                </li>
+                <li class="sidebar__item">
+                    <span>
+                        <img src="./img/transfer.svg" alt="">
+                    </span>
+                    <p>Transactions</p>
+                </li>
+                <li class="sidebar__item">
+                    <span>
+                        <img src="./img/user.svg" alt="">
+                    </span>
+                    <p>Accounts</p>
+                </li>
+                <li class="sidebar__item">
+                    <span>
+                        <img src="./img/economic.svg" alt="">
+                    </span>
+                    <p>Investments</p>
+                </li>
+                <li class="sidebar__item">
+                    <span>
+                        <img src="./img/credit-card.svg" alt="">
+                    </span>
+                    <p>Credit Cards</p>
+                </li>
+                <li class="sidebar__item">
+                    <span>
+                        <img src="./img/loan.svg" alt="">
+                    </span>
+                    <p>Loans</p>
+                </li>
+                <li class="sidebar__item">
+                    <span>
+                        <img src="./img/service.svg" alt="">
+                    </span>
+                    <p>Services</p>
+                </li>
+                <li class="sidebar__item">
+                    <span>
+                        <img src="./img/econometrics.svg" alt="">
+                    </span>
+                    <p>My Privileges</p>
+                </li>
+                <li class="sidebar__item _active">
+                    <span>
+                        <img src="./img/settings.svg" alt="">
+                    </span>
+                    <p>Setting</p>
+                </li>
+            </ul>
+        </div>
+        <div class="container__content content">
+            <nav class="content__nav">
+                <div class="content__mobile" style="display: none;"></div>
+                <h1>Setting</h1>
+                <div class="content__wrap">
+                    <label class="content__search">
+                        <span class="_loop">
+                            <img src="./img/loop.svg" alt="loop">
+                        </span>
+                        <input type="text" placeholder="Search for something" class="content__search-input">
+                    </label>
+                    <div class="content__settings">
+                        <img src="./img/settings-main.svg" alt="settings main">
+                    </div>
+                    <div class="content__notifications">
+                        <img src="./img/notification.svg" alt="notification">
+                    </div>
+                    <div class="content__avatar">
+                        <img src="./img/avatar.png" alt="avatar main">
+                    </div>
+                </div>
+            </nav>
+            <div class="content__main">
+                <ul class="content__tab-list">
+                    <li class="content__tab-item _active">Edit Profile</li>
+                    <li class="content__tab-item">Preferences</li>
+                    <li class="content__tab-item">Security</li>
+                </ul>
+                <div class="content__edit-profile">
+                    <div class="content__avatar-profile">
+                        <span class="_pencil">
+                            <img src="./img/pencil.svg" alt="">
+                        </span>
+                        <img src="./img/avatar.png" alt="avatar">
+                    </div>
+
+                    <form class="content__form">
+                        <ul class="content__fields">
+                            <li class="content__field-item">
+                                <label for="name" class="content__field-label">Your Name</label>
+                                <input id="name" type="text" class="content__field-input" placeholder="Charlene Reed ">
+                            </li>
+                            <li class="content__field-item">
+                                <label for="user-name" class="content__field-label">User Name</label>
+                                <input id="user-name" type="text" class="content__field-input" placeholder="Charlene Reed ">
+                            </li>
+                            <li class="content__field-item">
+                                <label for="email" class="content__field-label">Email</label>
+                                <input id="email" type="email" class="content__field-input" placeholder="charlenereed@gmail.com ">
+                            </li>
+                            <li class="content__field-item">
+                                <label for="password" class="content__field-label">Password</label>
+                                <input id="password" type="password" class="content__field-input" placeholder="**********">
+                            </li>
+                            <li class="content__field-item">
+                                <label for="date" class="content__field-label">Date of Birth</label>
+                                <input id="date" type="date" class="content__field-input" placeholder="25 January 1990">
+                            </li>
+                            <li class="content__field-item">
+                                <label for="present-address" class="content__field-label">Present Address</label>
+                                <input id="present-address" type="text" class="content__field-input" placeholder="San Jose, California, USA">
+                            </li>
+                            <li class="content__field-item">
+                                <label for="permanent-address" class="content__field-label">Permanent Address</label>
+                                <input id="permanent-address" type="text" class="content__field-input" placeholder="San Jose, California, USA">
+                            </li>
+                            <li class="content__field-item">
+                                <label for="city" class="content__field-label">City</label>
+                                <input id="city" type="text" class="content__field-input" placeholder="San Jose">
+                            </li>
+                            <li class="content__field-item">
+                                <label for="postal-code" class="content__field-label">Postal Code</label>
+                                <input id="postal-code" type="number" class="content__field-input" placeholder="45962">
+                            </li>
+                            
+                            <li class="content__field-item">
+                                <label for="country" class="content__field-label">Country</label>
+                                <input id="country" type="text" class="content__field-input" placeholder="USA">
+                            </li>
+                        </ul>
+                        <button type="button" class="content__save-btn">Save</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
